@@ -172,7 +172,7 @@ results_text = scrolledtext.ScrolledText(root, width=70, height=20, wrap=tk.WORD
 results_text.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
 # Информация о программе
-info_label = tk.Label(root, text="Программа тестирования псевдослучайных последовательностей (оценка 'Хорошо')",
+info_label = tk.Label(root, text="Программа тестирования псевдослучайных последовательностей",
                       font=("Arial", 8), fg="gray")
 info_label.pack(side=tk.BOTTOM, pady=5)
 
