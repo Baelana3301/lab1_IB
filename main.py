@@ -19,7 +19,6 @@ def runs_test(sequence):
     ones_count = sum(sequence)
     pi = ones_count / n
 
-    # Проверка на деление на ноль
     if pi == 0 or pi == 1:
         return False, float('inf')  # Невозможная статистика в этом случае
 
